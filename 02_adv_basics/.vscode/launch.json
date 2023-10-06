@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug_Pixel5",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "debug_iPhone14Pro",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "76C2FBA5-1BA7-4701-9192-BB7F996AAD51"
+        },
+        {
+            "name": "02_adv_basics (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "02_adv_basics (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": [
+                "debug_Pixel5",
+                "debug_iPhone14Pro",
+              
+           ]
+        }
+    ]
+}
